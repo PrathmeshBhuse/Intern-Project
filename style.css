@@ -162,8 +162,8 @@ a:hover {
     padding-bottom: 10px;
    }
 
-/*Main Area Css 
-  /* Main Content Container */
+/* /*Main Area Css  */
+  
 .table-section {
   margin-top: 60px;
 }
@@ -342,21 +342,21 @@ a:hover {
   
   .sticky-sidebar {
     position: sticky;
-    top: 80px; /* Distance from the top of the viewport */
-    height: max-content; /* Ensures the sidebar resizes based on content */
+    top: 80px; 
+    height: max-content; 
     background-color: #f4f4f4;
     padding: 40px;
     border: 1px solid #ddd;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 600px; /* Increased width for side-by-side layout */
-    display: flex; /* Enable flexbox for aligning content side by side */
-    flex-wrap: wrap; /* Ensure content wraps if it overflows */
-    gap: 20px; /* Space between elements */
+    width: 600px; 
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 20px; 
   }
   
   .sticky-sidebar h3 {
-    flex-basis: 100%; /* Full-width heading */
+    flex-basis: 100%; 
     text-align: center;
     font-size: 1.5rem;
     color: #333;
@@ -367,7 +367,7 @@ a:hover {
   }
   
   .sticky-sidebar ul {
-    flex: 1; /* Allow equal space for each list */
+    flex: 1; 
     list-style: none;
     padding: 0;
     margin: 0;
@@ -452,13 +452,13 @@ h1{
     height: 2px;
     margin-top: 10px;
     margin-bottom: 20px;
-    background: black; /* Add a background color for visibility */
-    transition: width 0.5s ease; /* Add transition for smooth effect */
+    background: black; 
+    transition: width 0.5s ease; 
 }
 
 #head3:hover + #hr3 {
     width: 80%;
-    background: red; /* Change background color on hover if needed */
+    background: red; 
 }
 .button-div{
     display: flex;
@@ -940,7 +940,7 @@ form {
   align-items: center;
   padding: 10px 0;
   margin-top: 30px;
-  position: relative; /* Ensure proper positioning for content */
+  position: relative; 
 }
 
 .heading {
